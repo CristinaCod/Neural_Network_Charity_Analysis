@@ -23,6 +23,8 @@ We are dropping the “EIN” and “NAME” columns as they are identifying inf
 
 o	How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
+This neural network model has two hidden layers, one with 80 neurons and the other with 30 and defaulted to the ReLU activation function on the hidden layers and Sigmoid on the outer layer as it is a binary classification. We also used “adam” as the optimizer and "binary_crossentropy" for the loss function when compiling the data. 
+
 o	Were you able to achieve the target model performance?
 
 No, I was unable to achieve the target accuracy of 75%. We came very close with 73% however this is not sufficient enough to predict the outcome of charity donations.
