@@ -2,6 +2,7 @@
 ## Overview
 ### Purpose
 
+A snapshot of the initial features dataframe is provided below to show the start point for this analysis. However, please note this is not the entire dataframe and a few columns are missing from the end as they did not all fit on the screen.
 
 ## Results
 **Data Preprocessing**
