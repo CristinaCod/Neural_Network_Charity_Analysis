@@ -1,6 +1,9 @@
 # Neural Network Charity Analysis
 ## Overview
 ### Purpose
+The purpose of this project was to continue our learning in machine learning and neural networks, this time by predicting foundation investments. Using a dataset from Alphabet Soup of more than 34,000 organizations that have received funding from Alphabet Soup over the years, we applied a deep learning neural network to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
+
+This analysis was performed by using our newly acquired knowledge of deep learning neural networks and TensorFlow to analyze the above-mentioned success of charities. We did so by preprocessing the data for the model, compiled, trained, and evaluated the model and optimized it. 
 
 A snapshot of the initial features dataframe is provided below to show the start point for this analysis. However, please note this is not the entire dataframe and a few columns are missing from the end as they did not all fit on the screen.
 
