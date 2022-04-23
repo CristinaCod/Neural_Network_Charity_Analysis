@@ -25,5 +25,5 @@ o	What steps did you take to try and increase model performance?
 
 ## Summary
 ### Findings
-
+The goal of the deep learning neural network model was to reach 75% predictive accuracy or higher which theoretically seems highly attainable. In the original model we only achieved 73% accuracy. After attempting to the optimize the model through multiple means we still did not reach that 75% threshold. Attempt one involved adding more neurons to the hidden layers which still only yielded a 73% accuracy. Attempt two of adding another hidden layer yielded 72% accuracy. Attempt three of using a different activation function on the hidden layers yielded 72% accuracy as well. So clearly none of these attempts had any significant difference on the predictive accuracy.
 ### Recommendations
