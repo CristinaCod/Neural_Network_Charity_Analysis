@@ -8,9 +8,15 @@
 
 o	What variable(s) are considered the target(s) for your model?
 
+The target for our deep learning neural network is the “IS_SUCCESSFUL” column. This determines whether or not the charity was effective. 
+
 o	What variable(s) are considered to be the features for your model?
 
+The features for our deep learning neural network include "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION", "USE_CASE", "ORGANIZATION", "INCOME_AMT", "SPECIAL_CONSIDERATIONS". We encoded these categorical variables, split them into training and testing datasets and standardized them. 
+
 o	What variable(s) are neither targets nor features, and should be removed from the input data? 
+
+We are dropping the “EIN” and “NAME” columns as they are identifying information and therefore not beneficial.
 
 
 **Compiling, Training, and Evaluating the Model**
@@ -19,8 +25,11 @@ o	How many neurons, layers, and activation functions did you select for your neu
 
 o	Were you able to achieve the target model performance?
 
+No, I was unable to achieve the target accuracy of 75%. We came very close with 73% however this is not sufficient enough to predict the outcome of charity donations.
+
 o	What steps did you take to try and increase model performance? 
 
+In efforts to try and increase model performance we made three separate changes. The first was to add more neurons to the hidden layers. The second was to add a third hidden layer. And third was to use a different activation function. 
 
 
 ## Summary
