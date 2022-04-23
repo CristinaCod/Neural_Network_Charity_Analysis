@@ -4,6 +4,8 @@
 
 A snapshot of the initial features dataframe is provided below to show the start point for this analysis. However, please note this is not the entire dataframe and a few columns are missing from the end as they did not all fit on the screen.
 
+![df.png](https://github.com/CristinaCod/Neural_Network_Charity_Analysis/blob/main/Resources/Screen%20Shot%202022-04-23%20at%205.35.12%20PM.png)
+
 ## Results
 **Data Preprocessing**
 
@@ -11,14 +13,19 @@ o	What variable(s) are considered the target(s) for your model?
 
 The target for our deep learning neural network is the “IS_SUCCESSFUL” column. This determines whether or not the charity was effective. 
 
+![success.png](https://github.com/CristinaCod/Neural_Network_Charity_Analysis/blob/main/Resources/Screen%20Shot%202022-04-23%20at%205.32.41%20PM.png)
+
 o	What variable(s) are considered to be the features for your model?
 
 The features for our deep learning neural network include "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION", "USE_CASE", "ORGANIZATION", "INCOME_AMT", "SPECIAL_CONSIDERATIONS". We encoded these categorical variables, split them into training and testing datasets and standardized them. 
+
+![cat.png](https://github.com/CristinaCod/Neural_Network_Charity_Analysis/blob/main/Resources/Screen%20Shot%202022-04-23%20at%205.32.17%20PM.png)
 
 o	What variable(s) are neither targets nor features, and should be removed from the input data? 
 
 We are dropping the “EIN” and “NAME” columns as they are identifying information and therefore not beneficial.
 
+![drop.png](https://github.com/CristinaCod/Neural_Network_Charity_Analysis/blob/main/Resources/Screen%20Shot%202022-04-23%20at%205.31.44%20PM.png)
 
 **Compiling, Training, and Evaluating the Model**
 
@@ -26,9 +33,13 @@ o	How many neurons, layers, and activation functions did you select for your neu
 
 This neural network model has two hidden layers, one with 80 neurons and the other with 30 and defaulted to the ReLU activation function on the hidden layers and Sigmoid on the outer layer as it is a binary classification. We also used “adam” as the optimizer and "binary_crossentropy" for the loss function when compiling the data. 
 
+![df2.png](https://github.com/CristinaCod/Neural_Network_Charity_Analysis/blob/main/Resources/Screen%20Shot%202022-04-23%20at%205.34.04%20PM.png)
+
 o	Were you able to achieve the target model performance?
 
 No, I was unable to achieve the target accuracy of 75%. We came very close with 73% however this is not sufficient enough to predict the outcome of charity donations.
+
+![outcome.png](https://github.com/CristinaCod/Neural_Network_Charity_Analysis/blob/main/Resources/Screen%20Shot%202022-04-23%20at%205.34.29%20PM.png)
 
 o	What steps did you take to try and increase model performance? 
 
